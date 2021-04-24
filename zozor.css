@@ -27,7 +27,7 @@ body
     background: url('images/fond_jaune.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
-    width: 900px;
+    width: 950px;
     margin: auto;
 }
 
@@ -35,9 +35,17 @@ p
 {
     text-align: justify;
 }
+
 figcaption h4, section h2, footer h3, aside h3, nav a
 {
     font-family: Dayrom, serif;
+    font-weight: normal;
+}
+
+header h4
+{
+    font-size: 1.1em;
+    margin-top: 0px;
     font-weight: normal;
 }
 
@@ -73,11 +81,12 @@ aside
     padding: 10px;
     color: white;
     font-size: 0.9em;
+    margin-bottom: 10%
 }
 #fleche_bulle
 {
     position: absolute;
-    top: 100px;
+    top: 90px;
     left: -12px;
 }
 #ppZozor
@@ -101,6 +110,71 @@ header
     justify-content: space-between;
     align-items: flex-end;
 }
+
+footer
+{
+    display: flex;
+    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
+    padding-top: 25px;
+}
+
+#blocs_footer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    
+}
+
+#blocs_footer p, #blocs_footer ul
+{
+    font-size: 0.8em;
+    justify-content: space-between;
+}
+#blocs_footer h3
+{
+    font-size: 1.1em;
+}
+#tweet
+{
+    width: 28%;
+}
+
+#mypics
+{
+    width: 35%;
+}
+
+#mesamis
+{
+    width: 31%;
+}
+
+#mypics img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mesamis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mesamis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+
 #bloc_logo
 {
     display: flex;
@@ -119,6 +193,14 @@ header
     height: 60px;
 /*Rien de flagrant non plus*/
 }
+
+strong
+{
+    color: red;
+    font-style: normal;
+    text-decoration: underline;
+}
+
 header h1
 {
     font-family: 'BallparkWeiner', serif;
@@ -180,6 +262,7 @@ figcaption
 }
 #redbutton
 {
+    font-family: Dayrom, serif;
     height: 25px;
     position: absolute;
     right: 5px;
@@ -201,62 +284,3 @@ figcaption
 
 
 
-strong
-{
-    color: red;
-    font-style: normal;
-    text-decoration: underline;
-}
-footer
-{
-    display: flex;
-    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
-    padding-top: 25px;
-}
-footer p, footer ul
-{
-    font-size: 0.8em;
-}
-footer h3
-{
-    font-size: 1.1em;
-}
-#tweet
-{
-    width: 28%;
-}
-
-#mypics
-{
-    width: 35%;
-}
-
-#mesamis
-{
-    width: 31%;
-}
-
-#mypics img
-{
-    border: 1px solid #181818;
-    margin-right: 2px;
-}
-
-#listes_amis
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0;
-}
-
-#mesamis ul
-{
-    list-style-image: url('images/ico_liensexterne.png');
-    padding-left: 2px;
-}
-
-#mesamis a
-{
-    text-decoration: none;
-    color: #760001;
-}
