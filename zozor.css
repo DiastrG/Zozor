@@ -236,6 +236,71 @@ nav a:hover
     color: #760001;
     border-bottom: 3px solid #760001;
 }
+
+@media all and (max-width: 500px)
+{
+    body
+
+    {
+        width: auto;
+
+    }
+
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+
+    #bannière
+    {
+        display: none;
+    }
+
+     section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    
+    #fleche_bulle
+    {
+        display: none;
+    }
+    
+    #ppZozor img
+    {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+}
+
 #bannière
 {
     margin-top: 15px;
